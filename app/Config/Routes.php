@@ -44,6 +44,7 @@ $routes->group('users', function ($routes) {
 	$routes->add('edit/(:num)', 'Users::edit/$1');
 	$routes->add('delete/(:num)', 'Users::delete/$1');
 	$routes->add('store', 'Users::store');
+	$routes->add('update', 'Users::update');
 });
 
 
