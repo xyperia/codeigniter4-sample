@@ -209,3 +209,48 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
  6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 09:20:48 --> Invalid file: "public/index.php/edit-user.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/index.php/edit-user.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('public/index.php/edit-user', [], true)
+ 3 APPPATH\Controllers\Users.php(48): view('public/index.php/edit-user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Users->edit('')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 09:21:54 --> Invalid file: "public/index.php/edit-user.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/index.php/edit-user.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('public/index.php/edit-user', [], true)
+ 3 APPPATH\Controllers\Users.php(48): view('public/index.php/edit-user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Users->edit('')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 09:22:09 --> Invalid file: "public/index.php/edit-user.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/index.php/edit-user.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('public/index.php/edit-user', [], true)
+ 3 APPPATH\Controllers\Users.php(48): view('public/index.php/edit-user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Users->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 09:22:11 --> Invalid file: "public/index.php/edit-user.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/index.php/edit-user.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('public/index.php/edit-user', [], true)
+ 3 APPPATH\Controllers\Users.php(48): view('public/index.php/edit-user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Users->edit('3')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 09:22:24 --> Invalid file: "public/index.php/edit-user.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/index.php/edit-user.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('public/index.php/edit-user', [], true)
+ 3 APPPATH\Controllers\Users.php(48): view('public/index.php/edit-user', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Users->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

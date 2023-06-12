@@ -41,8 +41,9 @@ $routes->set404Override();
 $routes->group('users', function ($routes) {
 	$routes->add('', 'Users::index');
 	$routes->add('create', 'Users::create');
-	$routes->add('edit/(:num)', 'Users::edit/');
+	$routes->add('edit/(:num)', 'Users::edit/$1');
 	$routes->add('delete/(:num)', 'Users::delete/$1');
+	$routes->add('store', 'Users::store');
 });
 
 

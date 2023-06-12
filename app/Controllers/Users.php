@@ -45,7 +45,7 @@ class Users extends Controller
  
      $data['user'] = $model->where('id', $id)->first();
  
-     return view('public/index.php/edit-user', $data);
+     return view('edit-user', $data);
     }
  
     public function update()
